@@ -1,0 +1,21 @@
+package introduccion;
+
+public class Operadores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Operadores:símbolos que realizan una función
+		//Matemáticos : +,-,*,/,%(resto de la división entera)
+		
+		int x1 = 9,x2 = 5;
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

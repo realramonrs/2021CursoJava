@@ -1,0 +1,25 @@
+package introduccion;
+
+public class Ejemplo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Mensajes por pantalla
+		
+		System.out.println("Me encanta programar en Java, me compré un libro");
+		
+		//Tipos de variables numéricas
+		byte b1 = 34; //Valores desde -128 a 127
+		short c1 = 345; //Valores hasta 32764
+		int i1 = 3400;
+		long l1 = 45456456;
+		
+		
+		
+		
+		
+		//
+	}
+
+}

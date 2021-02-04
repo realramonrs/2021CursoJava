@@ -1,0 +1,18 @@
+package introduccion;
+
+public class Ejemplo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Mensajes por pantalla
+		
+		System.out.println("Me encanta programar en Java, me compré un libro")
+		//Tipos de variables numéricas
+		
+		
+		
+		//
+	}
+
+}

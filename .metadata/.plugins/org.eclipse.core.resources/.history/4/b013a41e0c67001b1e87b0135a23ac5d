@@ -1,0 +1,11 @@
+package introduccion;
+
+public class LecturaConJOptionPane {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package introduccion;
+
+public class SentenciasSeleccion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Ejemplo if else
+		int edad = 9;
+		
+		if(edad>=18 && edad<45) {
+			System.out.println("Puede pasar, es ud mayor de edad");
+		}
+		else {
+			System.out.println("Es ud menor de edad, vayase a casa");
+		}
+		
+		
+		
+		
+	}
+
+}
