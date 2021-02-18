@@ -1,5 +1,6 @@
 package apiJava;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class EjercicioBucles {
@@ -13,6 +14,10 @@ public class EjercicioBucles {
 		for(int i = 0;i<matriz.length;i++) {
 			matriz[i] = aleatorio.nextInt(50);
 		}
+		
+		System.out.println(Arrays.toString(matriz));
+		
+		
 		
 		
 		
