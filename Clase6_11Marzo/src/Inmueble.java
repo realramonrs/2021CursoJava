@@ -1,10 +1,13 @@
 
-public class Inmueble {
+public class Inmueble implements Comparable<Inmueble> {
 
 	private String codigo;
 	private String direccion;
 	private float precio;
 	private float superficie;
+	
+	
+	
 	public Inmueble(String codigo, String direccion, float precio, float superficie) {
 		super();
 		this.codigo = codigo;
@@ -46,5 +49,19 @@ public class Inmueble {
 				+ superficie + "]";
 	}
 	
+	public static void guardarInmueble(Inmueble x,Inmueble matriz[]) {
+		for(int i = 0;i<matriz.length;i++) {
+			if(matriz[i]==null) {
+				matriz[i]=x;
+				break;
+			}
+		}
+		
+	}
+	@Override
+	public int compareTo(Inmueble arg0) {
+		// TODO Auto-generated method stub
+		return this.codigo.compareTo(arg0.codigo);
+	}
 	
 }
